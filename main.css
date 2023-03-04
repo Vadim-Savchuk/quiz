@@ -6,7 +6,9 @@ body {
 
 .container {
     width: 100vw;
+    display: flex;
     height: 100vh;
+    align-items: center;
     padding: 200px 100px;
 }
 
@@ -76,7 +78,7 @@ body {
 
 @media screen and (max-width: 576px) {
     .container {
-        padding: 150px 25px;
+        padding: 0 25px;
     }
 
     .quiz-title {
