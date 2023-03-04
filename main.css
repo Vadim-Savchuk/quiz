@@ -11,9 +11,10 @@ body {
 }
 
 .quiz {
-    width: 800px;
+    width: 100%;
     padding: 30px;
     margin: 0 auto;
+    max-width: 800px;
     border-radius: 25px;
     background-color: white;
 }
@@ -65,4 +66,20 @@ body {
 
 .button:hover {
     background: #ff00ea;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 150px 25px;
+    }
+
+    .quiz-title {
+        font-size: 25px;
+    }
 }
