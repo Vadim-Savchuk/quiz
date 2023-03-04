@@ -7,6 +7,7 @@ body {
 .container {
     width: 100vw;
     display: flex;
+    height: 100%;
     align-items: center;
     padding: 200px 100px;
 }
